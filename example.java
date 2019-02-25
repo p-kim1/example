@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Random;
 
 public class example{
@@ -6,12 +7,12 @@ public class example{
 	Random r = new Random();
 	System.out.println(r.nextInt());
     }
+	public static void writeFile(int dieNumber){
+
+	    File file = new File("Die number");
+	    file.write(dieNumber);
+	    
+
+	}
 }
 
-public void writeFile(int dieNumber){
-
-    File file = new File("Die number");
-    file.write(dieNumber);
-    
-
-}
