@@ -1,9 +1,11 @@
-import java.util.random;
+import java.util.Random;
 
-public static void main(String[] args)
-{
-    Random r = new Random();
-    System.out.println(r.nextInt());
+public class example{
+    public static void main(String[] args)
+    {
+	Random r = new Random();
+	System.out.println(r.nextInt());
+    }
 }
 
 public void writeFile(int dieNumber){
